@@ -1,3 +1,8 @@
-baseurl = "/"
+baseurl = "https://www.fccmontevideo.com/"
 languageCode = "es-uy"
 title = "FCC Montevideo"
+googleAnalytics = "UA-69160067-3"
+
+[params]
+description = "Comunidad Free Code Camp Montevideo"
+disqusShortname = "free-code-camp-montevideo"
