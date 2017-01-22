@@ -10,6 +10,7 @@ body {
     width: 100%;
     background-image: url('/img/bg.jpg');
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     color: white;
 }
@@ -23,7 +24,7 @@ body {
 
 .tb-cell {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 .container {
