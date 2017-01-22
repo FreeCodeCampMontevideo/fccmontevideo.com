@@ -1,4 +1,4 @@
-# ¿ Como contribuir con el campamento? 
+#  CONTRIBUIR AL PROYECTO.
 
 Bienvenido al campamento de la FCC en Montevideo.
 Como todo nuevo acampante te debes preguntar como puedes ayudar a mejorar el campamento.
