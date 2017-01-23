@@ -1,74 +1,55 @@
-# Contributor Covenant Code of Conduct
+# El CODIGO DE CONDUCTA del campamento.
 
-## Our Pledge
+## Nuestro Compromiso.
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to making participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, gender identity and expression, level of experience,
-nationality, personal appearance, race, religion, or sexual identity and
-orientation.
+Con el interes de cultivar un ambiente abierto y de bienvenida, nosotros como contribuidores y encargados del mantenimiento de este campamento nos comprometemos a que la participación en este proyecto y la comunidad sea  una experiencia libre de abuso para todos, sin importar  edad, tamaño, capacidades diferentes, entnia, identidad de genero, nivel de experiencia, nacionalidad, apariencia, orientación sexual o religion.
 
-## Our Standards
+## Nuestros Estandares
 
-Examples of behavior that contributes to creating a positive environment
-include:
+Ejemplos de comportamientos que contribuyen a crear un ambiente positivos incluyen:
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+- Usar un lenguaje respetuoso.
+- Ser respetuoso con los distintos puntos de vista y experiencias.
+- Aceptando criticas constructivas.
+- Enfocandose en lo mejor para la comunidad.
+- Mostrando empatia con otros miembros de la comunidad.
 
-Examples of unacceptable behavior by participants include:
+Ejemplos de comportamientos inaceptables en esta comunidad incluyen:
 
-* The use of sexualized language or imagery and unwelcome sexual attention or
-advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+- El uso de un lenguaje abusivo, incitación o acoso sexual.
+- Insultar, comentarios ofensivos, ataques a otros miembros.
+- Acoso publico o privado.
+- Trolling.
+- Publicar información privada de otros, como direcciones electronicas o fisicas sin el explicito permiso de otros.
+- Otras conductas que sean razonablemente consideradas inapropiadas en un ambiente profesional.
 
-## Our Responsibilities
+## Nuestras Responsabilidades.
 
-Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behavior.
+Los encargados son responsables de clarificar los estandares de comportamientos aceptables y se espera tomen apropiadas y justas medidas para corregir las acciones en respuesta a cualquier suceso de un comportamiento inaceptable.
 
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
+Los encargados de mantener el campamento tienen el derecho y responsabilidad de remover, editar o rechazar comentarios, commits, codigos, ediciones de wiki, issues, y otras contribuciones que no esten alineadas con este Codigo de Conducta.
+El derecho de temporalmente expulsar o suspender a cualquier contribuyente por otros comportamientos que sean inapropiados, ofensivos, amenazantes o peligros para la comunidad.
 
-## Scope
+## Alcance
 
-This Code of Conduct applies both within project spaces and in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an appointed
-representative at an online or offline event. Representation of a project may be
-further defined and clarified by project maintainers.
+Este Codigo de Conducta se aplica a los espacios de este proyecto y espacios publicos donde los individuos que representen este proyecto o su comunidad.
+Ejemplos de representar esta comunidad incluye utilizar correos oficiales de este proyecto, contenido en las cuentas de redes sociales, actuar como representativo en eventos en linea.
+La representación de este projecto sera definida y clarificada por los encargados del campamento.
 
-## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at david@netlify.com. All
-complaints will be reviewed and investigated and will result in a response that
-is deemed necessary and appropriate to the circumstances. The project team is
-obligated to maintain confidentiality with regard to the reporter of an incident.
-Further details of specific enforcement policies may be posted separately.
+## Aplicación
 
-Project maintainers who do not follow or enforce the Code of Conduct in good
-faith may face temporary or permanent repercussions as determined by other
-members of the project's leadership.
+En casos de abuso, acoso o otros comportamientos inaceptables, deben ser reportados contactando al equipo encargado del campamento.
+Todas los reclamos seran investigados y tendran una respuesta que sea necesaria y apropiada a la circunstancia.
+El equipo encargado esta obligado a mantener la confidencialidad de quien reporte un incidente.
+Detalles especificos de las politicas de aplicación seran documentadas por separado.
 
-## Attribution
+Los encargados de mantener el campamento que no sigan o apliquen el Codigo de Conducta en buena fe puede que reciban repercuciones permanentes o temporales determinadas por el liderazgo de los otros miembros encargados del campamento.
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at [http://contributor-covenant.org/version/1/4][version]
 
-[homepage]: http://contributor-covenant.org
-[version]: http://contributor-covenant.org/version/1/4/
+
+## Atribuciones
+Este Codigo de Conducta fue adaptado del [Contributor Covenant](http://contributor-covenant.org/), version 1.4.
+
+
+
