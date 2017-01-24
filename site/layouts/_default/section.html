@@ -1,0 +1,15 @@
+{{ partial "head" . }}
+
+{{ partial "header" . }}
+
+<main class="main">
+    <div>
+        <ul id="list">
+            {{ range .Data.Pages }}
+                {{ .Content }}
+            {{ end }}
+        </ul>
+    </div>
+</main>
+
+{{ partial "footer" . }}
