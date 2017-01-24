@@ -1,0 +1,35 @@
+.navigation {
+    background-color: var(--gunMetal);
+    height: var(--menuHeight);
+    position: fixed;
+    width: 100%;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    float: right;
+}
+.menu > .menu-item {
+    float: left;
+}
+.menu-item > a {
+    display: inline-block;
+    padding: var(--linkPadding) 25px;
+    line-height: var(--menuLineHeight);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--aliceBlue);
+}
+.menu-item > a:hover, .logo:hover {
+    background-color: var(--englishGreen);
+    color: var(--mediumTurquoise);
+}
+.logo {
+    float: left;
+    padding: 13px 30px;
+    font-size: 30px;
+    color: var(--aliceBlue);
+}

@@ -1,0 +1,5 @@
+:root {
+    --menuHeight: 60px;
+    --menuLineHeight: 20px;
+    --linkPadding: calc((var(--menuHeight) - var(--menuLineHeight)) / 2);
+}
