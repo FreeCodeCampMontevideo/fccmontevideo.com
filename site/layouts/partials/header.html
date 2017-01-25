@@ -1,21 +1,17 @@
 <header>
     <nav class="navigation">
         <a class="logo" href="/">
-            <i class="fa fa-free-code-camp" aria-hidden="true"></i>
+            <i class="fa fa-free-code-camp"></i>
         </a>
+
+        {{ $currentPage := . }}
+
         <ul class="menu">
-            <li class="menu-item">
-                <a href="/#about">Quiénes Somos</a>
-            </li>
-            <li class="menu-item">
-                <a href="/#contributing">Contribuir</a>
-            </li>
-            <li class="menu-item">
-                <a href="/faq">Faq</a>
-            </li>
-            <li class="menu-item">
-                <a href="/blog">Blog</a>
-            </li>
+            {{ range .Site.Menus.main }}
+                <li class="menu-item {{if $currentPage.IsMenuCurrent "main" . }} active{{end}}">
+                    <a href="{{.URL}}">{{ .Name }}</a>
+                </li>
+            {{end}}
         </ul>
     </nav>
 </header>

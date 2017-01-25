@@ -6,3 +6,25 @@ googleAnalytics = "UA-69160067-3"
 [params]
 description = "Comunidad Free Code Camp Montevideo"
 disqusShortname = "free-code-camp-montevideo"
+
+
+[[menu.main]]
+    name = "Quienes Somos"
+    weight = -110
+    identifier = "about"
+    url = "/#about"
+[[menu.main]]
+    name = "Contribuir"
+    weight = -100
+    identifier = "contributing"
+    url = "/#contributing"
+[[menu.main]]
+    name = "FAQ"
+    weight = -90
+    identifier = "faq"
+    url = "/faq/"
+[[menu.main]]
+    name = "Blog"
+    weight = -80
+    identifier = "blog"
+    url = "/blog/"
