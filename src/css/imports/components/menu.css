@@ -23,7 +23,7 @@
     text-decoration: none;
     color: var(--aliceBlue);
 }
-.menu-item > a:hover, .logo:hover {
+.menu-item > a:hover, .logo:hover, .menu-item.active {
     background-color: var(--englishGreen);
     color: var(--mediumTurquoise);
 }
