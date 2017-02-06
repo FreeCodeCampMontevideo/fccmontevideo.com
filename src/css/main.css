@@ -10,6 +10,7 @@ body {
 .section {
   padding: 6rem 0;
   text-align: center;
+  font-size: 1.3em;
 }
 .section.hero {
   background-color: #222;
@@ -35,5 +36,46 @@ body {
 }
 
 .section.about {
-  font-size: 1.3em;
+  background-color: #1c4875;
+  color: #fff;
+}
+
+.section.connect {
+  & .social-links {
+    padding: 2rem 0;
+
+    & a {
+      text-decoration: none;
+    }
+
+    & .social-title {
+      display: block;
+      color: var(--text-color);
+      margin-bottom: 2em;
+    }
+  }
+}
+.facebook {
+  color: #3B5998;
+  &:hover {
+    color: #304d8a;
+  }
+}
+.twitter {
+  color: #55ACEE;
+  &:hover {
+    color: #35a2f4;
+  }
+}
+.github {
+  color: #333;
+  &:hover {
+    color: #282727;
+  }
+}
+.youtube {
+  color: #CC181E;
+  &:hover {
+    color: #bd0d13;
+  }
 }
