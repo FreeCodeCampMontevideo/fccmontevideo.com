@@ -1,6 +1,24 @@
 @import "imports/reset.css";
 @import "imports/skeleton.css";
 
+:root {
+  --dark-background-color: #222;
+  --light-text-color: #fff;
+
+  --facebook-color: #3B5998;
+  --facebook-color-hover: #304d8a;
+
+  --twitter-color: #55ACEE;
+  --twitter-color-hover: #35a2f4;
+
+  --github-color: #333;
+  --github-color-hover: #282727;
+
+  --youtube-color: #CC181E;
+  --youtube-color-hover: #bd0d13;
+}
+
+
 body {
   font-family: 'Inconsolata', monospace;
 }
@@ -13,8 +31,8 @@ body {
   font-size: 1.3em;
 }
 .section.hero {
-  background-color: #222;
-  color: #fff;
+  background-color: var(--dark-background-color);
+  color: var(--light-text-color);
   height: 100vh;
   padding: 0;
   display: flex;
@@ -26,7 +44,7 @@ body {
   }
 
   & .scroll-arrow {
-    color: #fff;
+    color: var(--light-text-color);
     position: absolute;
     bottom: 30px;
     left: 50%;
@@ -37,7 +55,7 @@ body {
 
 .section.about {
   background-color: #1c4875;
-  color: #fff;
+  color: var(--light-text-color);
 }
 
 .section.connect {
@@ -56,26 +74,30 @@ body {
   }
 }
 .facebook {
-  color: #3B5998;
+  color: var(--facebook-color);
   &:hover {
-    color: #304d8a;
+    color: var(--facebook-color-hover);
   }
 }
 .twitter {
-  color: #55ACEE;
+  color: var(--twitter-color);
   &:hover {
-    color: #35a2f4;
+    color: var(--twitter-color-hover);
   }
 }
 .github {
-  color: #333;
+  color: var(--github-color);
   &:hover {
-    color: #282727;
+    color: var(--github-color-hover);
   }
 }
 .youtube {
-  color: #CC181E;
+  color: var(--youtube-color);
   &:hover {
-    color: #bd0d13;
+    color: var(--youtube-color-hover);
   }
+}
+
+.section.footer {
+  background-color: var(--dark-background-color);
 }
