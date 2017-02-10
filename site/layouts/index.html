@@ -1,19 +1,95 @@
 {{ partial "head" . }}
 
-<section class="coming-soon">
-    <div class="tb">
-        <div class="tb-cell">
-            <div class="container">
-                <div class="heading-intro">
-                    <div class="intro-title">
-                        <h2>MUY PRONTO</h2>
-                        <h1>FREE CODE CAMP</h1>
-                        <h2>MONTEVIDEO</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <main class="content">
+    <div class="section hero">
+      <div class="heading">
+        <h1>#freeCodeCampMVD: Hola Mundo!</h1>
+
+        <h4>
+          Bienvenidos a la comunidad freeCodeCamp de Montevideo!!
+        </h4>
+      </div>
+
+      <a href="#learn" class="scroll-arrow">
+        <i class="fa fa-arrow-down fa-3x"></i>
+      </a>
     </div>
-</section>
+
+    <div id="learn" class="section learn">
+      <div class="container">
+        <h4>Aprende</h4>
+
+        <p>
+          Aprende gratis desarrollo web de forma autodidacta y orientada a proyectos, apoyate en la comunidad y comparte tus experiencias para ayudar a otros.
+        </p>
+
+        <div class="row">
+          <div class="four columns">
+            <img src="/img/landingIcons_learn.svg" alt="">
+            <p>Aprende a tu ritmo</p>
+          </div>
+          <div class="four columns">
+            <img src="/img/landingIcons_connect.svg" alt="">
+            <p>Colabora con la comunidad</p>
+          </div>
+          <div class="four columns">
+            <img src="/img/landingIcons_portfolio.svg" alt="">
+            <p>Crea tu portfolio</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about" class="section about">
+      <div class="container">
+        <h4>¿Quienes Somos?</h4>
+
+        <p>
+          Somos un grupo de personas que les encanta la programacion, el desarrollo web y la tecnologia en general.
+        </p>
+
+        <p>
+          En este grupo encontraras desde principiantes que recien comienzan a dar sus primeros pasos en este mundo, hasta gente mas experimentada que quiere seguir aprendiendo y ayudando a los demas compartiendo sus conocimientos y experiencias.
+        </p>
+      </div>
+    </div>
+
+    <div id="connect" class="section connect">
+      <div class="container">
+        <h4>Conecta y Participa</h4>
+
+        <p>
+          Estamos presentes en multiples plataformas donde puedes participar.
+        </p>
+
+        <div class="row social-links">
+          <div class="three columns">
+            <a class="facebook" href="{{ .Site.Params.facebookGroup }}" target="_blank">
+              <i class="fa fa-facebook-official fa-4x"></i>
+              <span class="social-title">Grupo de Facebook</span>
+            </a>
+          </div>
+          <div class="three columns">
+            <a class="twitter" href="{{ .Site.Params.twitter }}" target="_blank">
+              <i class="fa fa-twitter fa-4x"></i>
+              <span class="social-title">Twitter</span>
+            </a>
+          </div>
+          <div class="three columns">
+            <a class="github" href="{{ .Site.Params.githubOrg }}" target="_blank">
+              <i class="fa fa-github fa-4x"></i>
+              <span class="social-title">GitHub Org</span>
+            </a>
+          </div>
+          <div class="three columns">
+            <a class="youtube" href="{{ .Site.Params.youtube }}" target="_blank">
+              <i class="fa fa-youtube-play fa-4x"></i>
+              <span class="social-title">Canal YouTube</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 
 {{ partial "footer" . }}

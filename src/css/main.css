@@ -1,61 +1,103 @@
 @import "imports/reset.css";
+@import "imports/skeleton.css";
+
+:root {
+  --dark-background-color: #222;
+  --light-text-color: #fff;
+
+  --facebook-color: #3B5998;
+  --facebook-color-hover: #304d8a;
+
+  --twitter-color: #55ACEE;
+  --twitter-color-hover: #35a2f4;
+
+  --github-color: #333;
+  --github-color-hover: #282727;
+
+  --youtube-color: #CC181E;
+  --youtube-color-hover: #bd0d13;
+}
+
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+  font-family: 'Inconsolata', monospace;
 }
 
-.coming-soon {
-    height: 100vh;
-    width: 100%;
-    background-image: url('/img/bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
+.landing {
+}
+.section {
+  padding: 6rem 0;
+  text-align: center;
+  font-size: 1.3em;
+}
+.section.hero {
+  background-color: var(--dark-background-color);
+  color: var(--light-text-color);
+  height: 100vh;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  & .heading {
+    padding: 8rem 0;
+  }
+
+  & .scroll-arrow {
+    color: var(--light-text-color);
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -20px;
+    animation: bounce 3s 1s infinite;
+  }
 }
 
-.tb {
-    display: table;
-    table-layout: fixed;
-    width: 100%;
-    height: 100%;
+.section.about {
+  background-color: #1c4875;
+  color: var(--light-text-color);
 }
 
-.tb-cell {
-    display: table-cell;
-    vertical-align: top;
-}
+.section.connect {
+  & .social-links {
+    padding: 2rem 0;
 
-.container {
-    width: 90%;
-    margin: 0px auto;
-
-    @media (min-width: 680px) {
-        width: 70%;
+    & a {
+      text-decoration: none;
     }
-}
 
-.heading-intro {
-    text-align: center;
-}
-.intro-title {
-    text-shadow: 2px 2px rgba(12, 11, 11, 0.56);
-}
-.intro-message {
-    font-size: 1.5em;
-}
-
-.heading-intro h1 {
-    font-size: 2em;
-    @media (min-width: 680px) {
-        font-size: 4em;
+    & .social-title {
+      display: block;
+      color: var(--text-color);
+      margin-bottom: 2em;
     }
+  }
+}
+.facebook {
+  color: var(--facebook-color);
+  &:hover {
+    color: var(--facebook-color-hover);
+  }
+}
+.twitter {
+  color: var(--twitter-color);
+  &:hover {
+    color: var(--twitter-color-hover);
+  }
+}
+.github {
+  color: var(--github-color);
+  &:hover {
+    color: var(--github-color-hover);
+  }
+}
+.youtube {
+  color: var(--youtube-color);
+  &:hover {
+    color: var(--youtube-color-hover);
+  }
 }
 
-.heading-intro h2 {
-    font-size: 1.3em;
-    @media (min-width: 680px) {
-        font-size: 2em;
-    }
+.section.footer {
+  background-color: var(--dark-background-color);
 }
