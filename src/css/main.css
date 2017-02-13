@@ -26,7 +26,7 @@ body {
 .landing {
 }
 .section {
-  padding: 6rem 0;
+  padding: 60px 10px;
   text-align: center;
   font-size: 1.3em;
 }
@@ -40,7 +40,7 @@ body {
   justify-content: center;
 
   & .heading {
-    padding: 8rem 0;
+    padding: 80px 10px;
   }
 
   & .scroll-arrow {
@@ -60,7 +60,7 @@ body {
 
 .section.connect {
   & .social-links {
-    padding: 2rem 0;
+    padding: 20px 0;
 
     & a {
       text-decoration: none;
