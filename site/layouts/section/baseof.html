@@ -1,0 +1,13 @@
+{{ partial "head" . }}
+
+{{ partial "navigation" . }}
+
+<main class="content">
+    <div class="container">
+    {{ block "main" . }}
+      <!-- The part of the page that begins to differ between templates -->
+    {{ end }}
+    </div>
+</main>
+
+{{ partial "footer" . }}
