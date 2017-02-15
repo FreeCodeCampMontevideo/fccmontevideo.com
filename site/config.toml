@@ -11,3 +11,14 @@ facebookGroup = "https://www.facebook.com/groups/free.code.camp.montevideo"
 twitter = "https://twitter.com/fccmontevideo"
 githubOrg = "https://github.com/FreeCodeCampMontevideo"
 youtube = "https://www.youtube.com/channel/UCTIYpVhXmFgTZ9CiuAU22Rw"
+
+[[menu.main]]
+  name = "Blog"
+  weight = -100
+  identifier = "blog"
+  url = "/blog/"
+[[menu.main]]
+  name = "Eventos"
+  weight = -110
+  identifier = "events"
+  url = "/events/"
