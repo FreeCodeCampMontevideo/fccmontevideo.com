@@ -11,7 +11,16 @@
                     </a>
                     <div class="post-meta">
                         <span class="post-author">
-                            {{ .Params.author }}
+                            {{ $author := .Params.author }}
+
+                            {{ range $.Site.Data.members }}
+                                {{ if eq .nick $author }}
+                                    <span class="post-author">
+                                        <img class="author-avatar" src="{{ .avatar }}" alt="">
+                                        {{ .name }}
+                                    </span>
+                                {{end}}
+                            {{end}}
                         </span>
                         -
                         <span class="post-date">
