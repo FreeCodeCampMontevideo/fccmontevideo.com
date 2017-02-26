@@ -9,26 +9,9 @@
                     <a href="{{ .RelPermalink }}" class="post-title">
                         {{ .Title }}
                     </a>
-                    <div class="post-meta">
-                        <span class="post-author">
-                            {{ $author := .Params.author }}
+                    
+                    {{ partial "post-meta.html" . }}
 
-                            {{ range $.Site.Data.members }}
-                                {{ if eq .nick $author }}
-                                    <span class="post-author">
-                                        <img class="author-avatar" src="{{ .avatar }}" alt="">
-                                        {{ .name }}
-                                    </span>
-                                {{end}}
-                            {{end}}
-                        </span>
-                        -
-                        <span class="post-date">
-                            {{ .Date.Format "02/01/2006" }}
-                        </span>
-                        -
-                        <span class="read-time">Lectura {{ .ReadingTime }} min</span>
-                    </div>
                     <div class="post-summary">
                         {{ .Summary }}
 
