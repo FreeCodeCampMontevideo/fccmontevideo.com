@@ -33,6 +33,14 @@ body {
   min-height: 100vh;
 }
 
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 1em;
+  color: #777;
+  border-left: 0.25em solid #ddd;
+}
+
 .content {
   flex: 1;
   padding-top: var(--content-padding-top);
@@ -258,6 +266,14 @@ body {
 
     & img {
       width: 100%;
+      box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+
+      &.inline-image {
+        height: 30px;
+        width: auto;
+        vertical-align: middle;
+        box-shadow: none;
+      }
     }
   }
 }
