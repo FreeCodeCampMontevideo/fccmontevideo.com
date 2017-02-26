@@ -1,5 +1,41 @@
 {{ define "main" }}
 
-<h1>Blog</h1>
+<div class="row blog-container">
+    <section class="col-xs-12 col-sm-8 col-md-8 blog-content">
+        <div class="blog-posts">
+            {{ range first 10 .Data.Pages }}
+                <div class="post">
+                    <a href="{{ .RelPermalink }}" class="post-title">
+                        {{ .Title }}
+                    </a>
+                    <div class="post-meta">
+                        <span class="post-author">
+                            {{ .Params.author }}
+                        </span>
+                        -
+                        <span class="post-date">
+                            {{ .Date.Format "02/01/2006" }}
+                        </span>
+                        -
+                        <span class="read-time">Lectura {{ .ReadingTime }} min</span>
+                    </div>
+                    <div class="post-summary">
+                        {{ .Summary }}
+
+                        {{ if .Truncated }}
+                            <span class="read-more-link">
+                                <a href="{{ .RelPermalink }}">Leer mas..</a>
+                            </span>
+                        {{ end }}
+                    </div>
+                </div>
+            {{end}}
+        </div>
+    </section>
+
+    <aside class="col-xs-12 col-sm-4 col-md-4 blog-sidebar">
+
+    </aside>
+</div>
 
 {{ end }}
