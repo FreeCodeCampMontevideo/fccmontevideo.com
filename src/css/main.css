@@ -214,32 +214,46 @@ body {
 
 .blog-posts {
   padding: 1em 0;
+}
 
-  & .post {
-    margin-bottom: 1.5em;
+.post {
+  margin-bottom: 1.5em;
+  padding: 0 1em;
+  text-align: left;
 
-    & .post-title {
-      font-size: 2.2em;
+  & a.post-title{
+    font-size: 2.2em;
+  }
+
+  & .post-title h1 {
+    margin-bottom: 5px;
+  }
+
+  & .post-meta {
+    font-style: italic;
+
+    & .author-avatar {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      vertical-align: middle;
     }
+  }
 
-    & .post-meta {
-      font-style: italic;
+  & .post-summary {
+    margin-top: 1em;
 
-      & .author-avatar {
-        display: inline-block;
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        vertical-align: middle;
-      }
+    & p {
+      margin: 0;
     }
+  }
 
-    & .post-summary {
-      margin-top: 1em;
+  & .post-content {
+    margin-top: 2em;
 
-      & p {
-        margin: 0;
-      }
+    & p {
+      font-size: 1.1em;
     }
   }
 }
