@@ -2,11 +2,10 @@ baseurl = "https://www.fccmontevideo.com/"
 languageCode = "es-uy"
 title = "FCC Montevideo"
 googleAnalytics = "UA-69160067-3"
-
+disqusShortname = "free-code-camp-montevideo"
 
 [params]
 description = "Comunidad Free Code Camp Montevideo"
-disqusShortname = "free-code-camp-montevideo"
 facebookGroup = "https://www.facebook.com/groups/free.code.camp.montevideo"
 twitter = "https://twitter.com/fccmontevideo"
 githubOrg = "https://github.com/FreeCodeCampMontevideo"
