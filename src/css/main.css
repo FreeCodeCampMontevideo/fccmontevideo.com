@@ -255,7 +255,16 @@ body {
     & p {
       font-size: 1.1em;
     }
+
+    & img {
+      width: 100%;
+    }
   }
+}
+
+.post-comments {
+  padding: 0 1em;
+  margin-bottom: 2em;
 }
 
 .blog-sidebar {
