@@ -49,7 +49,7 @@ Una vez finalizado el post puedes guardar el archivo, esto generará un commit e
 
 ![](/img/save-post.png)
 
-Ludo podrás crear un pull request(PR) para que tu post sea incluido en el sitio dando click en el botón **Compare & pull request** y completando los datos requeridos que especifiquen el nombre del PR y una descripción. Una vez que tu cambios se acepten en el repo de fcc tu artículo quedara publicado en el blog.
+Luego podrás crear un pull request(PR) para que tu post sea incluido en el sitio dando click en el botón **Compare & pull request** y completando los datos requeridos que especifiquen el nombre del PR y una descripción. Una vez que tu cambios se acepten en el repo de fcc tu artículo quedara publicado en el blog.
 
 ![](/img/post-pull-request.png)
 
