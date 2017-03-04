@@ -44,6 +44,7 @@ blockquote {
 .content {
   flex: 1;
   padding-top: var(--content-padding-top);
+  min-height: calc(100vh - var(--content-padding-top));
 }
 
 .landing {
@@ -288,5 +289,21 @@ blockquote {
 
   @media (--sm-viewport) {
     display: block;
+  }
+}
+
+
+/* Footer styles */
+.section.footer {
+  & .footer-heading {
+    color: var(--light-text-color);
+  }
+
+  & .footer-links {
+    margin-bottom: 25px;
+
+    & p {
+      margin: 0;
+    }
   }
 }
