@@ -142,7 +142,7 @@ blockquote {
     padding: 0;
     float: right;
     margin: 8px 30px;
-    display: none;
+    /*display: none;*/
 
     & li {
       float: left;
