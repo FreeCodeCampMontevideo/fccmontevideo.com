@@ -7,6 +7,7 @@ import cssnext from "postcss-cssnext";
 import BrowserSync from "browser-sync";
 import webpack from "webpack";
 import webpackConfig from "./webpack.conf";
+import cleanCSS from "gulp-clean-css";
 
 const browserSync = BrowserSync.create();
 const hugoBin = "hugo";
@@ -21,6 +22,7 @@ gulp.task("build-preview", ["css", "js", "hugo-preview"]);
 gulp.task("css", () => (
   gulp.src("./src/css/**/*.css")
     .pipe(postcss([cssnext(), cssImport({from: "./src/css/main.css"})]))
+    .pipe(cleanCSS())
     .pipe(gulp.dest("./dist/css"))
     .pipe(browserSync.stream())
 ));
