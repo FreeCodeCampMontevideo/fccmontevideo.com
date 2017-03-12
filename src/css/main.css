@@ -233,6 +233,7 @@ blockquote {
 
   & a.post-title{
     font-size: 2.2em;
+    line-height: normal;
   }
 
   & .post-title h1 {
@@ -241,6 +242,7 @@ blockquote {
 
   & .post-meta {
     font-style: italic;
+    margin-top: 10px;
 
     & .author-avatar {
       display: inline-block;
