@@ -9,17 +9,15 @@
                     <a href="{{ .RelPermalink }}" class="post-title">
                         {{ .Title }}
                     </a>
-                    
+
                     {{ partial "post-meta.html" . }}
 
                     <div class="post-summary">
-                        {{ .Summary }}
+                        <p>{{ .Params.Description }}</p>
 
-                        {{ if .Truncated }}
-                            <span class="read-more-link">
-                                <a href="{{ .RelPermalink }}">Leer mas..</a>
-                            </span>
-                        {{ end }}
+                        <span class="read-more-link">
+                            <a href="{{ .RelPermalink }}">Leer mas..</a>
+                        </span>
                     </div>
                 </div>
             {{end}}

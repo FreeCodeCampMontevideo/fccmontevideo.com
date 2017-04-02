@@ -8,13 +8,6 @@ image: /img/comparte-y-aprende.jpg
 description: Nunca aprendes algo realmente hasta que lo enseñas y aunque creas que no sabes nada aun solo tienes que estar un paso delante de alguien para enseñarle algo a otra persona. -John Sonmez
 ---
 
->Nunca aprendes algo realmente hasta que lo enseñas y aunque creas que no sabes nada aun solo tienes que estar
-un paso delante de alguien para enseñarle algo a otra persona.
-                                                                                            *"John Sonmez"*
-<!--more-->
-
-![](/img/comparte-y-aprende.jpg)
-
 ##### Mejora tus Habilidades como programador compartiendo tus conocimientos
 
 Escribir sobre tu experiencia como newbie podría ser beneficioso para la comunidad pero aún más importante para tu crecimiento personal como desarrollador; Después de leer algunos artículos sobre el tema me puse a pensar que tiene sentido, fijate qué técnicas usas vos para saber si ya entendistes algo realmente, practicándolo en general dirás pero ¿Cuantas veces lo repetis seguro de que no hay dudas y en verdad lo entendés?. Considera este ejemplo: Cuando logras hacer que una pagina se vea como vos queres decis: ya estaaa! entendí, quedas pensando que ese problema ya quedo atrás y pasas a otra cosa; Luego más tarde, quizá días, semanas o meses después, se te presenta el mismo problema de nuevo y es ahi donde  se te cruza la misteriosa duda que te dice: ¿que paso con el conocimiento que pensabas que tenías? ¿donde quedo?, para algunos frustración y a volver a repasar, ¿rings any bells for you?

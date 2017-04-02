@@ -14,7 +14,15 @@
                     {{ partial "post-meta.html" . }}
 
                     <div class="post-content">
-                        {{ .Content }}
+                      <p>
+                        {{ .Params.Description }}
+                      </p>
+
+                      <p>
+                        <img src="{{ .Params.image }}" alt="{{ .Title }}">
+                      </p>
+
+                      {{ .Content }}
                     </div>
                 </div>
             </div>

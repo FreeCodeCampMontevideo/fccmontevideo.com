@@ -8,12 +8,6 @@ image: /img/como-crear-articulo.jpg
 description: Bienvenidos al blog de freeCodeCamp Montevideo, en esta oportunidad explicaré como crear un artículo o post de una forma fácil.
 ---
 
-Bienvenidos al blog de freeCodeCamp Montevideo, en esta oportunidad explicaré como crear un artículo o post de una forma fácil.
-
-<!--more-->
-
-![](/img/como-crear-articulo.jpg)
-
 ### Introducción
 
 Para crear un artículo o post hay dos maneras que podrás optar según sea el caso, una forma es utilizar la interfaz de GitHub para crear el archivo correspondiente al post, y la otra es teniendo el código en tu maquina y trabajando de forma local. Todo dependerá de tus preferencias y como te sientas mas cómodo trabajando.
