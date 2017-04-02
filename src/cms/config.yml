@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: <% GITHUB_REPOSITORY %> # Gulp will replace this with your GitHub repository
+  branch: master # Branch to update (master by default)
+
+media_folder: "site/static/img" # Folder where user uploaded files should go
+public_folder: "img"
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "articulos" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Articulos" # Used in the UI, ie.: "New Post"
+    folder: "site/content/blog" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Titulo", name: "title", widget: "string"}
+      - {label: "Fecha", name: "date", widget: "datetime"}
+      - {label: "Intro", name: "description", widget: "text"}
+      - {label: "Banner", name: "image", widget: "image", required: false}
+      - {label: "Contenido", name: "body", widget: "markdown"}
