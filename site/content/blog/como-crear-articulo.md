@@ -1,12 +1,12 @@
-+++
-date = "2017-02-26T14:35:30-03:00"
-title = "Como crear un articulo para el blog"
-draft = false
-author = "matiasvj"
-categories = ["Tutoriales"]
-image = "/img/como-crear-articulo.jpg"
-description = "Bienvenidos al blog de freeCodeCamp Montevideo, en esta oportunidad explicaré como crear un artículo o post de una forma fácil."
-+++
+---
+date: 2017-02-26T14:35:30-03:00
+title: Como crear un articulo para el blog
+draft: false
+author: matiasvj
+categories: ["Tutoriales"]
+image: /img/como-crear-articulo.jpg
+description: Bienvenidos al blog de freeCodeCamp Montevideo, en esta oportunidad explicaré como crear un artículo o post de una forma fácil.
+---
 
 Bienvenidos al blog de freeCodeCamp Montevideo, en esta oportunidad explicaré como crear un artículo o post de una forma fácil.
 
@@ -34,7 +34,7 @@ Antes de comenzar a escribir el articulo como tal debes especificar ciertos dato
 
 ![](/img/post-metadata.png)
 
-En este caso se puede apreciar que tengo que especificar el nombre del archivo a crear `nombre-post.md` en minusculas y separando cada palabra con `-` e indicar algunos datos necesarios para el post, esta información es la que aparece entre los signos de `+++` (frontmatter)
+En este caso se puede apreciar que tengo que especificar el nombre del archivo a crear `nombre-post.md` en minusculas y separando cada palabra con `-` e indicar algunos datos necesarios para el post, esta información es la que aparece entre los signos de `---` (frontmatter)
 
 - title: titulo del post
 - date: fecha de creación del post
