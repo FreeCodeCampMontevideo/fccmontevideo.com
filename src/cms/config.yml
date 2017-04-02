@@ -14,6 +14,7 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: "Titulo", name: "title", widget: "string"}
       - {label: "Fecha", name: "date", widget: "datetime"}
+      - {label: "Autor", name: "author", widget: "string"}
       - {label: "Intro", name: "description", widget: "text"}
       - {label: "Banner", name: "image", widget: "image", required: false}
       - {label: "Contenido", name: "body", widget: "markdown"}
