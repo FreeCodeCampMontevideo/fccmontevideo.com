@@ -4,6 +4,8 @@ title = "Como crear un articulo para el blog"
 draft = false
 author = "matiasvj"
 categories = ["Tutoriales"]
+image = "/img/como-crear-articulo.jpg"
+description = "Bienvenidos al blog de freeCodeCamp Montevideo, en esta oportunidad explicaré como crear un artículo o post de una forma fácil."
 +++
 
 Bienvenidos al blog de freeCodeCamp Montevideo, en esta oportunidad explicaré como crear un artículo o post de una forma fácil.
