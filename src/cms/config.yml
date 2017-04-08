@@ -18,3 +18,12 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro", name: "description", widget: "text"}
       - {label: "Banner", name: "image", widget: "image", required: false}
       - {label: "Contenido", name: "body", widget: "markdown"}
+  - name: "autores"
+    label: "Autores"
+    folder: "site/content/authors"
+    create: true
+    fields:
+      - {label: "Nick", name: "nick", widget: "string"}
+      - {label: "Nombre", name: "name", widget: "string"}
+      - {label: "Email", name: "email", widget: "string"}
+      - {label: "Avatar", name: "avatar", widget: "string"}
