@@ -2,6 +2,7 @@
 @import "imports/skeleton.css";
 
 @import "social-links.css";
+@import "about.css";
 
 :root {
   --dark-background-color: #2c3e50;
