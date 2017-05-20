@@ -21,6 +21,11 @@ youtube = "https://www.youtube.com/channel/UCTIYpVhXmFgTZ9CiuAU22Rw"
   weight = -110
   identifier = "events"
   url = "/events/"
+[[menu.main]]
+  name = "Nosotros"
+  weight = -120
+  identifier = "about"
+  url = "/about/"
 
 [taxonomies]
   tag = "tags"
