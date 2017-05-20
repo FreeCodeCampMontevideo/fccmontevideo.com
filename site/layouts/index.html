@@ -6,44 +6,7 @@
 
     {{ partial "hero" . }}
 
-    <div id="learn" class="section learn">
-      <div class="container">
-        <h4>Aprende</h4>
-
-        <p>
-          Aprende gratis desarrollo web de forma autodidacta y orientada a proyectos, apoyate en la comunidad y comparte tus experiencias para ayudar a otros.
-        </p>
-
-        <div class="row center-xs">
-          <div class="col-xs-8 col-sm-7 col-md-4">
-            <img src="/img/landingIcons_learn.svg" alt="">
-            <p>Aprende a tu ritmo</p>
-          </div>
-          <div class="col-xs-8 col-sm-7 col-md-4">
-            <img src="/img/landingIcons_connect.svg" alt="">
-            <p>Colabora con la comunidad</p>
-          </div>
-          <div class="col-xs-8 col-sm-7 col-md-4">
-            <img src="/img/landingIcons_portfolio.svg" alt="">
-            <p>Crea tu portfolio</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="about" class="section about">
-      <div class="container">
-        <h4>¿Quienes Somos?</h4>
-
-        <p>
-          Somos un grupo de personas que les encanta la programación, el desarrollo web y la tecnología en general.
-        </p>
-
-        <p>
-          En este grupo encontraras desde principiantes que recien comienzan a dar sus primeros pasos, hasta gente mas experimentada que quiere seguir aprendiendo y ayudando a los demas compartiendo sus conocimientos y experiencias.
-        </p>
-      </div>
-    </div>
+    {{ partial "learn" . }}
 
     <div id="connect" class="section connect">
       <div class="container">
@@ -53,32 +16,7 @@
           Estamos presentes en multiples plataformas donde puedes participar.
         </p>
 
-        <div class="row center-xs social-links">
-          <div class="col-xs-6 col-sm-3 col-md-3">
-            <a class="facebook" href="{{ .Site.Params.facebookGroup }}" target="_blank" rel="noopener">
-              <i class="fa fa-facebook-official fa-4x"></i>
-              <span class="social-title">Grupo de Facebook</span>
-            </a>
-          </div>
-          <div class="col-xs-6 col-sm-3 col-md-3">
-            <a class="twitter" href="{{ .Site.Params.twitter }}" target="_blank" rel="noopener">
-              <i class="fa fa-twitter fa-4x"></i>
-              <span class="social-title">Twitter</span>
-            </a>
-          </div>
-          <div class="col-xs-6 col-sm-3 col-md-3">
-            <a class="github" href="{{ .Site.Params.githubOrg }}" target="_blank" rel="noopener">
-              <i class="fa fa-github fa-4x"></i>
-              <span class="social-title">GitHub Org</span>
-            </a>
-          </div>
-          <div class="col-xs-6 col-sm-3 col-md-3">
-            <a class="youtube" href="{{ .Site.Params.youtube }}" target="_blank" rel="noopener">
-              <i class="fa fa-youtube-play fa-4x"></i>
-              <span class="social-title">Canal YouTube</span>
-            </a>
-          </div>
-        </div>
+        {{ partial "social-links" . }}
 
         <div class="row center-xs">
             <div class="col-xs-8 col-md-6">
