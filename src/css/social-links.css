@@ -1,0 +1,13 @@
+.social-links {
+  padding: 20px 0;
+
+  & a {
+    text-decoration: none;
+  }
+
+  & .social-title {
+    display: block;
+    color: var(--text-color);
+    margin-bottom: 2em;
+  }
+}
