@@ -1,3 +1,7 @@
+:root {
+  --post-height: 300px;
+}
+
 .latest-posts {
   padding: 1em;
 
@@ -9,8 +13,9 @@
 .post-container {
   background-position: center;
   background-size: cover;
-  max-height: 340px;
+  height: var(--post-height);
   margin-bottom: 20px;
+  position: relative;
 
   &:hover .post-overlay {
     opacity: 1;
@@ -22,10 +27,24 @@
   padding: 20px;
   transition: all .3s ease-in-out;
   color: var(--light-text-color);
-  min-height: 300px;
+  height: var(--post-height);
+  box-sizing: border-box;
 
   & .title {
     line-height: normal;
     font-size: 1.5em;
+  }
+}
+
+@media (max-width: 48em) {
+  .post-overlay {
+    opacity: 1;
+    position: absolute;
+    bottom: 0;
+    height: calc(var(--post-height) / 2);
+
+    & .summary {
+      display: none;
+    }
   }
 }
