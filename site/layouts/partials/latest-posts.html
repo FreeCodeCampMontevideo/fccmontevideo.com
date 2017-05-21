@@ -1,0 +1,22 @@
+<div class="section latest-posts">
+  <!-- <div class="container"> -->
+    <h2 class="latest-posts-title">Ultimos Articulos</h2>
+    <div class="row center-xs">
+      {{ range first 3 (where .Data.Pages "Section" "blog") }}
+        <div class="col-xs-10 col-sm-7 col-md-4">
+          <div class="post-container" style="background-image: url('{{ .Params.image }}')">
+            <a href="{{ .RelPermalink }}">
+              <div class="post-overlay">
+                <h3 class="title">{{ .Title }}</h3>
+
+                <div class="summary">
+                  <p>{{ .Params.Description }}</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      {{end}}
+    </div>
+  <!-- </div> -->
+</div>
