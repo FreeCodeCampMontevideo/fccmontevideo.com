@@ -1,0 +1,31 @@
+.latest-posts {
+  padding: 1em;
+
+  & .latest-posts-title {
+    text-align: center;
+  }
+}
+
+.post-container {
+  background-position: center;
+  background-size: cover;
+  max-height: 340px;
+  margin-bottom: 20px;
+
+  &:hover .post-overlay {
+    opacity: 1;
+  }
+}
+.post-overlay {
+  opacity: 0;
+  background-color: color(#e74c3c alpha(90%));
+  padding: 20px;
+  transition: all .3s ease-in-out;
+  color: var(--light-text-color);
+  min-height: 300px;
+
+  & .title {
+    line-height: normal;
+    font-size: 1.5em;
+  }
+}
