@@ -95,11 +95,6 @@ blockquote {
   }
 }
 
-.section.about {
-  background-color: #1c4875;
-  color: var(--light-text-color);
-}
-
 .facebook {
   color: var(--facebook-color);
   &:hover {
