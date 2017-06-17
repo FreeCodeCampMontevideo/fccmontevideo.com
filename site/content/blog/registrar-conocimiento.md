@@ -1,9 +1,10 @@
 ---
 date: 2017-06-15
-title: La importancia de registrar lo que sabemos
+title: Tu blog no es suficiente
 draft: true
 author: matiasnunes
 categories: ["Articulos"]
+description: O mejor, ¿por qué perder tiempo buscando de nuevo algo que ya habíamos encontrado antes?
 ---
 
 Los que trabajamos en alguna rama de IT, prácticamente todos los días, tenemos esa clase de preguntas que Informes20 no puede contestar:
@@ -12,9 +13,7 @@ Los que trabajamos en alguna rama de IT, prácticamente todos los días, tenemos
 ¿Qué fue lo que hice aquella vez para solucionar este problema con las librerías de Java?
 ¿Qué parte del registro de Windows había que tocar para cambiar el nombre de la carpeta de usuario?
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=98LJpyhrR3Q
-" target="_blank"><img src="http://img.youtube.com/vi/98LJpyhrR3Q/0.jpg" 
-alt="Informes 20" width="300" height="240" border="10" /></a>
+{{< youtube id="98LJpyhrR3Q" >}}
 
 ## Tu cerebro no es bueno en eso
 
