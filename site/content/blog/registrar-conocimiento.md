@@ -14,7 +14,7 @@ Los que trabajamos en alguna rama de IT, prácticamente todos los días, tenemos
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=98LJpyhrR3Q
 " target="_blank"><img src="http://img.youtube.com/vi/98LJpyhrR3Q/0.jpg" 
-alt="Informes 20" width="240" height="180" border="10" /></a>
+alt="Informes 20" width="300" height="240" border="10" /></a>
 
 ## Tu cerebro no es bueno en eso
 
