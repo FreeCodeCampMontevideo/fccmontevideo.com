@@ -1,9 +1,10 @@
 ---
 date: 2017-06-15
 title: Tu blog no es suficiente
-draft: true
+draft: false
 author: matiasnunes
 categories: ["Articulos"]
+image: /img/Tu-blog-no-es-suficiente.jpg
 description: O mejor, ¿por qué perder tiempo buscando de nuevo algo que ya habíamos encontrado antes?
 ---
 
@@ -21,7 +22,7 @@ Por supuesto que el Informes20 de hoy es Google, y que Google sí puede contesta
 
 **¿Pero por qué perder tiempo buscando de nuevo algo que ya habíamos encontrado antes? ¿No nos haríamos un favor a nosotros mismos si registráramos en un sólo lugar todo nuevo conocimiento que se nos cruza por delante?**
 
-Si tu trabajo (o hobbie) es ser informático (ya sea programador, administrador de sistemas, diseñador web, etc.), sabés que todo lo que hay para aprender dentro de tu campo de experiencia es prácticamente infinito, inabarcable. Cuánto más si se considerás lo que hay por fuera de tus dominios.
+Si tu trabajo (o hobbie) es ser informático (ya sea programador, administrador de sistemas, diseñador web, etc.), sabés que todo lo que hay para aprender dentro de tu campo de experiencia es prácticamente infinito, inabarcable. Cuánto más si considerás lo que hay por fuera de tus dominios.
 Y aún eso que está por fuera de tus dominios, en algún punto vas a necesitar manejarlo. O sino, ¿a qué programador no le ha tocado instalar librerías desde la linea de comandos? ¿O qué sysadmin no ha tenido alguna vez programar en un lenguaje desconocido? Todos manejamos, en base diaria, una cantidad de conocimiento inabarcable para la mente humana.
 
 Hace unos meses me tocó asistir a una charla para emprendedores que dio [Ana Spósito](https://twitter.com/analaurasposito "Ana Spósito Twitter") en Espacio Serratosa y ahí escuché una frase sobre la forma en que gestionamos nuestra lista de tareas pendientes que, irónicamente, no pude olvidarme: "nuestros cerebros son buenos generando ideas, pero no tanto recordando cosas". Así que su sugerencia fue que anotemos y organicemos absolutamente todo lo que tengamos pendiente hacer mejor nuestro trabajo.
@@ -41,7 +42,7 @@ Hablo de registrar, documentar.
 En la comunicación no sólo se presta atención al contenido, sino también a la forma. Nadie quiere que su blog sea un plomo que espante a los lectores, y por lo tanto se gasta tiempo y energía en embellecer el discurso y las formas.
 Si mañana encuentro que mi problema con las dichosas librerías de Java se resuelve en dos patadas cambiando un guión por un punto en el nombre de un archivo (como me pasó una vez), no me voy a sentir inclinado a escribir un bonito post sobre mi hallazgo, porque voy a pensar que no vale la pena hacer que mis lectores se gasten en leer sobre un problema tan básico, ¿o no? Y de esa forma el nuevo conocimiento, esa mínima vuelta de tuerca que hace que todo funcione como debería, queda condenado al olvido en algún rincón de mi cerebro.
 
-Así que hay que buscar una solución más inmediata. Una en la que pueda escribir esto nuevo que acabo de descrubrir, sin que me importe el cómo, la forma, o que quede "lindo" para el ojo.
+Así que hay que buscar una solución más inmediata. Una en la que pueda escribir esto nuevo que acabo de descubrir, sin que me importe el cómo, la forma, o que quede "lindo" para el ojo.
 ¿Un archivo de block de notas? Muy desorganizado. ¿Un cuaderno donde escribir a mano? Aunque me gustan las soluciones analógicas, en este caso necesitamos poder consultar y encontrar rápidamente, así que no.
 
 ¿Y una especie de wikipedia personal? ¡Ahá! Creo que dimos en el clavo.
