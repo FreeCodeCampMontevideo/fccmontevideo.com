@@ -5,6 +5,7 @@ draft: false
 author: matiasnunes
 categories: ["Articulos"]
 image: /img/Tu-blog-no-es-suficiente.jpg
+images: ["/img/Tu-blog-no-es-suficiente.jpg"]
 description: O mejor, ¿por qué perder tiempo buscando de nuevo algo que ya habíamos encontrado antes?
 ---
 

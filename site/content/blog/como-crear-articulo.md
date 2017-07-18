@@ -5,6 +5,7 @@ draft: false
 author: matiasvj
 categories: ["Tutoriales"]
 image: /img/como-crear-articulo.jpg
+images: ["/img/como-crear-articulo.jpg"]
 description: Bienvenidos al blog de freeCodeCamp Montevideo, en esta oportunidad explicaré como crear un artículo o post de una forma fácil.
 ---
 

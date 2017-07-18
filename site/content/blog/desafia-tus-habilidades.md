@@ -4,6 +4,7 @@ title: Desafía tus habilidades
 draft: false
 author: matiasvj
 image: /img/desafia-habilidades/banner.png
+images: ["/img/desafia-habilidades/banner.png"]
 description: Una de las formas de mejorar como programador es poner a prueba tus conocimientos resolviendo problemas o desafíos.
 ---
 

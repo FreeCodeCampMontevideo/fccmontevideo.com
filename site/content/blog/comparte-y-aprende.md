@@ -5,6 +5,7 @@ draft: false
 author: annata
 categories: ["Articulos"]
 image: /img/comparte-y-aprende.jpg
+images: ["/img/comparte-y-aprende.jpg"]
 description: Nunca aprendes algo realmente hasta que lo enseñas y aunque creas que no sabes nada aun solo tienes que estar un paso delante de alguien para enseñarle algo a otra persona. -John Sonmez
 ---
 
