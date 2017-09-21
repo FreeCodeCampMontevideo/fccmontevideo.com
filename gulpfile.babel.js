@@ -89,6 +89,22 @@ gulp.task("server", ["hugo", "css", "js", "svg", "cms"], () => {
   gulp.watch("./site/**/*", ["hugo"]);
 });
 
+gulp.task("generate-service-worker", function(callback) {
+  var swPrecache = require("sw-precache");
+  var rootDir = "dist";
+
+  swPrecache.write(
+    `${rootDir}/service-worker.js`,
+    {
+      staticFileGlobs: [
+        rootDir + "/**/*.{js,html,xml,css,png,jpg,gif,svg,eot,ttf,woff}"
+      ],
+      stripPrefix: rootDir
+    },
+    callback
+  );
+});
+
 function buildSite(cb, options) {
   const args = options ? defaultArgs.concat(options) : defaultArgs;
 
