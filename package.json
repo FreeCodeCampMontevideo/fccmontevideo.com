@@ -7,7 +7,7 @@
     "hugo": "gulp hugo",
     "webpack": "gulp webpack",
     "build": "gulp build && gulp generate-service-worker",
-    "build-preview": "gulp build-preview",
+    "build-preview": "gulp build-preview && gulp generate-service-worker",
     "start": "gulp server",
     "lint": "eslint src"
   },
