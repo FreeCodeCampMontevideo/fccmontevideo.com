@@ -62,7 +62,7 @@
         </p>
         <p>
           <a href="https://www.netlify.com" target="_blank" rel="noopener">
-            <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" />
+            <img src="/img/netlify-color-accent.svg" />
           </a>
         </p>
         <p class="footer-heading">
@@ -72,12 +72,11 @@
     </div>
   </footer>
 
-  <script
-    src="https://code.jquery.com/jquery-3.1.1.min.js"
-    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-    crossorigin="anonymous">
-  </script>
+  {{ if .Page.IsHome }}
+    <script src="/service-worker-registration.js"></script>
+  {{ end }}
 
+  <script src="/js/jquery.slim.min.js"></script>
   <script src="/app.js"></script>
 </body>
 </html>

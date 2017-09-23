@@ -6,8 +6,8 @@
   "scripts": {
     "hugo": "gulp hugo",
     "webpack": "gulp webpack",
-    "build": "gulp build",
-    "build-preview": "gulp build-preview",
+    "build": "gulp build && gulp generate-service-worker",
+    "build-preview": "gulp build-preview && gulp generate-service-worker",
     "start": "gulp server",
     "lint": "eslint src"
   },
@@ -51,6 +51,7 @@
     "gulp-inject": "^4.2.0",
     "gulp-svgmin": "^1.2.3",
     "gulp-svgstore": "^6.1.0",
-    "svg-sprite-loader": "^0.1.2"
+    "svg-sprite-loader": "^0.1.2",
+    "sw-precache": "^5.2.0"
   }
 }
