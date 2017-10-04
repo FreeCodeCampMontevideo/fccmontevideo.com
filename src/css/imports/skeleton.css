@@ -201,13 +201,19 @@ code {
   margin: 0 2px;
   font-size: 90%;
   white-space: nowrap;
+  border-radius: 4px;
+}
+
+code:not([class*="language-"]) {
   background: #F1F1F1;
   border: 1px solid #E1E1E1;
-  border-radius: 4px; }
+}
+
 pre > code {
   display: block;
   padding: 10px 15px;
-  white-space: pre; }
+  white-space: pre;
+}
 
 
 /* Tables

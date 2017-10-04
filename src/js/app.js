@@ -1,7 +1,7 @@
 // JS Goes here - ES6 supported
 
 
-/* global $, hljs */
+/* global $ */
 $(document).ready(function() {
   var navigationHeight = $(".navigation").height();
 
@@ -16,10 +16,5 @@ $(document).ready(function() {
         return false;
       }
     }
-  });
-
-  // initialize highlight.js
-  $("pre code").each(function(i, block) {
-    hljs.highlightBlock(block);
   });
 });
