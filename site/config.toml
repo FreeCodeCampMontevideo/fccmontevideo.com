@@ -4,6 +4,9 @@ title = "FCC Montevideo"
 googleAnalytics = "UA-69160067-3"
 disqusShortname = "free-code-camp-montevideo"
 
+pygmentsCodefences = true
+pygmentsStyle = "monokai"
+
 [params]
 description = "Comunidad Free Code Camp Montevideo"
 facebookGroup = "https://www.facebook.com/groups/free.code.camp.montevideo"
