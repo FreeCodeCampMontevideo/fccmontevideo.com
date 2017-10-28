@@ -2,14 +2,6 @@
   --post-height: 300px;
 }
 
-.latest-posts {
-  padding: 1em;
-
-  & .latest-posts-title {
-    text-align: center;
-  }
-}
-
 .post-container {
   background-position: center;
   background-size: cover;
@@ -29,10 +21,12 @@
   color: var(--light-text-color);
   height: var(--post-height);
   box-sizing: border-box;
+  width: 100%;
 
   & .title {
     line-height: normal;
     font-size: 1.5em;
+    color: var(--light-text-color);
   }
 }
 

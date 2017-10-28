@@ -1,7 +1,7 @@
 {{ define "main" }}
 
-<div class="row blog-container">
-    <section class="col-xs-12 col-sm-8 col-md-8 blog-content">
+<div class="columns blog-container">
+    <section class="column is-8 blog-content">
         <div class="blog-posts">
         {{if ge (len .Data.Pages) 1 }}
             {{ range first 10 .Data.Pages }}
@@ -25,7 +25,7 @@
         </div>
     </section>
 
-    <aside class="col-xs-12 col-sm-4 col-md-4 blog-sidebar">
+    <aside class="column is-4 blog-sidebar">
 
     </aside>
 </div>
