@@ -1,6 +1,6 @@
-import React from "react";
-import CMS from "netlify-cms";
+/* global CMS */
 
+import React from "react";
 import PostPreview from "./cms-preview-templates/post";
 
 
