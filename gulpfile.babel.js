@@ -12,13 +12,22 @@ import svgmin from "gulp-svgmin";
 import inject from "gulp-inject";
 import replace from "gulp-replace";
 import cssnano from "cssnano";
+import watch from "gulp-watch";
 
 const browserSync = BrowserSync.create();
 const hugoBin = "hugo";
-const defaultArgs = ["-d", "../dist", "-s", "site"];
 
+// Hugo arguments
+const hugoArgsDefault = ["-d", "../dist", "-s", "site", "-v"];
+const hugoArgsPreview = ["--buildDrafts", "--buildFuture"];
+
+// Development tasks
 gulp.task("hugo", (cb) => buildSite(cb));
-gulp.task("hugo-preview", (cb) => buildSite(cb, ["--buildDrafts", "--buildFuture"]));
+gulp.task("hugo-preview", (cb) => buildSite(cb, hugoArgsPreview));
+
+// Build/production tasks
+gulp.task("build", ["css", "js", "cms"], (cb) => buildSite(cb, [], "production"));
+gulp.task("build-preview", ["css", "js", "cms"], (cb) => buildSite(cb, hugoArgsPreview, "production"));
 
 gulp.task("cms", () => {
   const match = process.env.REPOSITORY_URL ? process.env.REPOSITORY_URL : cp.execSync("git remote -v", {encoding: "utf-8"});
@@ -32,9 +41,7 @@ gulp.task("cms", () => {
     .pipe(browserSync.stream());
 });
 
-gulp.task("build", ["css", "js", "hugo", "cms"]);
-gulp.task("build-preview", ["css", "js", "hugo-preview"]);
-
+// Compile CSS with PostCSS
 gulp.task("css", () => (
   gulp.src("./src/css/*.css")
     .pipe(postcss([
@@ -46,6 +53,7 @@ gulp.task("css", () => (
     .pipe(browserSync.stream())
 ));
 
+// Compile Javascript
 gulp.task("js", (cb) => {
   const myConfig = Object.assign({}, webpackConfig);
 
@@ -76,17 +84,18 @@ gulp.task("svg", () => {
     .pipe(gulp.dest("site/layouts/partials/"));
 });
 
+// Development server with browsersync
 gulp.task("server", ["hugo", "css", "js", "svg", "cms"], () => {
   browserSync.init({
     server: {
       baseDir: "./dist"
     }
   });
-  gulp.watch("./src/js/**/*.js", ["js"]);
-  gulp.watch("./src/css/**/*.css", ["css"]);
-  gulp.watch("./src/cms/*", ["cms"]);
-  gulp.watch("./site/static/img/icons/*.svg", ["svg"]);
-  gulp.watch("./site/**/*", ["hugo"]);
+  watch("./src/js/**/*.js", ["js"]);
+  watch("./src/css/**/*.css", ["css"]);
+  watch("./src/cms/*", ["cms"]);
+  watch("./site/static/img/icons/*.svg", ["svg"]);
+  watch("./site/**/*", ["hugo"]);
 });
 
 gulp.task("generate-service-worker", function(callback) {
@@ -105,8 +114,13 @@ gulp.task("generate-service-worker", function(callback) {
   );
 });
 
-function buildSite(cb, options) {
-  const args = options ? defaultArgs.concat(options) : defaultArgs;
+/**
+ * Run hugo and build the site
+ */
+function buildSite(cb, options, environment = "development") {
+  const args = options ? hugoArgsDefault.concat(options) : hugoArgsDefault;
+
+  process.env.NODE_ENV = environment;
 
   return cp.spawn(hugoBin, args, {stdio: "inherit"}).on("close", (code) => {
     if (code === 0) {
