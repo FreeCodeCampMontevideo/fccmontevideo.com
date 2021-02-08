@@ -1,0 +1,25 @@
+.content_proximo_event {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: flex-start;
+    }
+
+.content_proximo_event .left_ {
+    order: 0;
+    flex: 1 1 auto;
+    align-self: stretch;
+    }
+
+.content_proximo_event .right_ {
+    order: 0;
+    flex: 1 1 auto;
+    align-self: stretch;
+    }
+
+.search_link{}
+.search_link ul{}
+.search_link ul li {}
+.search_link ul li a {}
